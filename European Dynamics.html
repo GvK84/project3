@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>European Dynamics</title>
+<style>
+.MainDiv {
+    text-align: left;
+    display: block;
+    width: 1250px;
+    padding-left: 100px;
+    font-family:Helvetica;
+}
+.FormDiv {
+    padding-left: 50px;
+    text-align: center;
+    font-weight: bold;
+  }
+.checkbox {
+    width: 800px;
+}
+.submit {
+  margin-left: 20px;
+  width: 925px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: left;
+}
+input[type=text], select, textarea {
+  width: 925px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+label {
+  display: inline-block;
+  width: 250px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.check {
+  text-align: left;
+  width:125px;
+}
+span {
+  display: inline-block;
+  width: 925px;
+  text-align: left;
+  margin-left: 20px;
+  box-sizing: border-box;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+input[type=submit] {
+    margin-left:5px;
+    padding: 6px 12px;
+    border:2px solid #d43f3a;
+    border-radius: 4px;
+    background-color: #da6461;
+    color:#fff;
+    font-weight: bold;
+  
+}
+</style>
+ 
+</head>
+<body>
+
+<div class="MainDiv">
+<img src="European%20Dynamics_files/logo_ed.png" alt="EurDyn"> 
+<hr width="100%" size="1" color="#dedede">
+<p style="color:#0033ff;text-align:center;"><i>Registration is free and open until January 20, 2016 at 17:00.</i></p>
+<div class="FormDiv">
+    <form>
+        <label for="yname">Your Name:*</label>
+        <input type="text" id="yname" name="yname"><br>
+        <label for="yemail">Your Email:*</label>
+        <input type="text" id="yemail" name="yemail"><br>
+        <label for="yphone">Your Phone:*</label>
+        <input type="text" id="yphone" name="yphone"><br>
+        <label for="yskype">Your Skype:*</label>
+        <input type="text" id="yskype" name="yskype"><br>
+
+
+        
+        <label for="ydate">Prefered date of participation:*</label>
+        <span>
+        <input type="checkbox" id="ydate1" name="ydate1" value="">
+        <label class="check" for="ydate1">30 January 2016</label>
+        <input type="checkbox" id="ydate2" name="ydate2" value="">
+        <label class="check" for="ydate2">31 January 2016</label><br>
+        </span>
+      
+        <label for="ycv">CV (.pdf, .doc, .docx):*</label>
+        <span>
+        
+        <input type="file" id="ycv" name="ycv" accept=".pdf, .doc, .docx"><br>
+        
+      </span>
+
+      <label></label>
+      <div class="submit">
+     <input type="submit" value="Send"></div>
+
+      </form>
+</div>
+</div>
+
+ </body></html>
